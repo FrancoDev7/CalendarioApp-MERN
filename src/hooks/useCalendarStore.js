@@ -4,8 +4,6 @@ import { calendarApi } from '../api'
 import { convertEventsToDateEvents } from '../helpers'
 import Swal from 'sweetalert2'
 
-
-
 export const useCalendarStore = () => {
 
   const dispatch = useDispatch()
@@ -36,17 +34,10 @@ export const useCalendarStore = () => {
       Swal.fire('Error al guardar evento', error.response.data.msg, 'error')
       
     }
-
-  
-    
   }
 
   const startDeletingEvent = async() => {
-    
     try {
-
-     
-
       await calendarApi.delete(`/events/${ activeEvent.id }`)
       dispatch(onDeleteEvent())
       
@@ -55,8 +46,6 @@ export const useCalendarStore = () => {
       Swal.fire('Error al eliminar evento', error.response.data.msg, 'error')
       
     }
-
-    
   }
 
   const startLoadingEvents = async() => {
