@@ -18,11 +18,10 @@ export const useAuthStore = () => {
       
 
     } catch (error) {
-      dispatch( onLogout('Credentials are not valid') )
+      dispatch( onLogout('Credenciales Incorrectas') )
       setTimeout(() => {
         dispatch( clearErrorMessage() )
       }, 10);
-      
     }
   }
 
