@@ -6,6 +6,8 @@ import { AppRouter } from '../../src/router/AppRouter';
 
 jest.mock('../../src/hooks/useAuthStore');
 
+
+// MOCK para evitar que se renderice el componente CalendarPage y asi evitar errores
 jest.mock('../../src/calendar', () => ({
     CalendarPage: () => <h1>CalendarPage</h1>
 }))
@@ -46,7 +48,7 @@ describe('Pruebas en <AppRouter />', () => {
 
     expect( screen.getByText('Ingreso') ).toBeTruthy();
     expect( container ).toMatchSnapshot(); 
-    
+
   })
 
   test('debe de mostrar el calendario si estamos autenticados', () => {
