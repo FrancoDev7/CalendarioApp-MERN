@@ -1,7 +1,6 @@
 import { addHours } from "date-fns"
 import { useCalendarStore, useUiStore } from "../../hooks"
 
-
 export const FabAddNew = () => {
 
   const { OpenDateModal } = useUiStore()
@@ -22,9 +21,6 @@ export const FabAddNew = () => {
 
     OpenDateModal()
   }
-
-    
-  
 
   return (
     <button 
