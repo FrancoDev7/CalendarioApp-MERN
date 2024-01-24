@@ -30,7 +30,7 @@ describe('Pruebas en <FabDelete />', () => {
   test('debe de mostrar el botón si hay un evento activo', () => {
 
     useCalendarStore.mockReturnValue({
-        hasEventSelected: true
+      hasEventSelected: true
     });
     
     render(<FabDelete />);
@@ -44,8 +44,8 @@ describe('Pruebas en <FabDelete />', () => {
   test('debe de llamar startDeletingEvent si hay evento activo', () => {
 
     useCalendarStore.mockReturnValue({
-        hasEventSelected: true,
-        startDeletingEvent: mockStartDeletingEvent
+      hasEventSelected: true,
+      startDeletingEvent: mockStartDeletingEvent
     });
     
     render(<FabDelete />);
