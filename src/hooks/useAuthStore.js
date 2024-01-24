@@ -68,14 +68,14 @@ export const useAuthStore = () => {
 
   return {
     // properties
+    errorMessage,
     status,
     user,
-    errorMessage,
 
     // methods
     checkAuthToken,
     startLogin,
+    startLogout,
     startRegister,
-    startLogout
   }
 }
