@@ -22,7 +22,6 @@ export const CalendarPage = () => {
 
     const isMyEvent = ( user.uid === event.user._id) || ( user.uid === event.user.uid )
 
-
     const style = {
       backgroundColor: isMyEvent ? '#347CF7' : '#465660',
       borderRadius: '0px',
@@ -51,7 +50,6 @@ export const CalendarPage = () => {
 
   }
 
-  
   useEffect(() => { 
     startLoadingEvents()
   }, [])
@@ -62,7 +60,7 @@ export const CalendarPage = () => {
 
       <Calendar
         culture='es'
-        localizer={localizer}
+        localizer={ localizer}
         events={ events }
         defaultView={ lastView }
         startAccessor="start"
