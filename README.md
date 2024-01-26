@@ -14,3 +14,22 @@
 - [**Bootstrap**](https://tailwindcss.com/) - Marco de diseño para crear sitios web receptivos y visualmente atractivos.
 - [**Jest**](https://jestjs.io/) - Marco de pruebas para JavaScript, centrado en la simplicidad y eficacia, especialmente útil para pruebas unitarias e integración.
 
+## 🚀 Comenzando
+
+Necesitarás:
+
+- [Node.js 16+ (recommended 18 LTS)](https://nodejs.org/en/).
+- [Git](https://git-scm.com/).
+
+1. Haz un Fork de este repositorio y clónalo localmente:
+
+```bash
+git clone git@github.com:tu_nombre_de_usuario/CalendarioApp-MERN.git
+```
+
+
+2. Instala pnpm globalmente si no lo tienes:
+npm install -g pnpm
+
+3. e instala las dependencias:
+pnpm install
