@@ -44,10 +44,10 @@ export const LoginPage = () => {
     },[ errorMessage ])
 
     return (
-        <div className="container login-container">
+        <div className="container login-container dark">
             <div className="row">
-                <div className="col-md-6 login-form-1">
-                    <h3>Ingreso</h3>
+                <div className="col-md-6 login-form-1 ">
+                    <h3 className='text-white'>Ingreso</h3>
                     <form onSubmit={ loginSubmit }>
                         <div className="form-group mb-2">
                             <input 
