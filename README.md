@@ -6,10 +6,11 @@
 <p></p>
 </div>
 
-## 🛠️ Stack
-
-- [**React**](https://kit.svelte.dev/) - Web development, streamlined.
-- [***Node JS*](https://www.typescriptlang.org/) - JavaScript with syntax for types.
-- [**Bootstrap**](https://tailwindcss.com/) - Build fast, responsive sites with Bootstrap
-- [**Jest**](https://jestjs.io/) - Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+## 🛠️ Stack MERN
+- [**MongoDB**](https://www.mongodb.com/) - Base de datos orientada a documentos, multiplataforma y de código abierto.
+- [**Express**](https://expressjs.com/) -  Marco de desarrollo para construir aplicaciones web en Node.js, simplificando la gestión de rutas y solicitudes.
+- [**React**](https://kit.svelte.dev/) - Biblioteca para crear interfaces de usuario interactivas y eficientes en aplicaciones web.
+- [**NodeJS**](https://www.typescriptlang.org/) - Entorno de ejecución para JavaScript en el servidor, con la opción de TypeScript para agregar tipado.
+- [**Bootstrap**](https://tailwindcss.com/) - Marco de diseño para crear sitios web receptivos y visualmente atractivos.
+- [**Jest**](https://jestjs.io/) - Marco de pruebas para JavaScript, centrado en la simplicidad y eficacia, especialmente útil para pruebas unitarias e integración.
 
