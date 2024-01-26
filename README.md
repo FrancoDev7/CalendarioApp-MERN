@@ -38,4 +38,4 @@ npm install -g pnpm
 pnpm install
 ```
 4. Tambien deberas clonar el backend
--[Calendario-Backend)](https://github.com/FrancoDev7/calendar-backend)
+- [Calendario-Backend](https://github.com/FrancoDev7/calendar-backend)
