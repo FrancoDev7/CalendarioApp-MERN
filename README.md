@@ -29,7 +29,11 @@ git clone git@github.com:tu_nombre_de_usuario/CalendarioApp-MERN.git
 
 
 2. Instala pnpm globalmente si no lo tienes:
+```bash
 npm install -g pnpm
+```
 
 3. e instala las dependencias:
+```bash
 pnpm install
+```
